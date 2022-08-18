@@ -1,5 +1,9 @@
 # DocSearch Changelog
 
+## [Support for the new documentation] - 2022-08-18
+
+- 📄 Support [React Native](https://reactnative.dev/)
+
 ## [Support for the new documentation] - 2022-08-16
 
 - 📄 Support [Dubbo](https://dubbo.apache.org/)
