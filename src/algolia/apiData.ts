@@ -7,7 +7,7 @@ export default <IAPIData[]>[
     apiKey: "03fb4b6577b57b5dafc792d9ddf66508",
     appId: "UX8WBNVHHR",
     indexName: "arthas",
-    homepage: "https://arthas.aliyun.com/"
+    homepage: "https://arthas.aliyun.com/",
   },
   {
     name: "Bootstrap",
@@ -17,10 +17,8 @@ export default <IAPIData[]>[
     indexName: "bootstrap",
     homepage: "https://getbootstrap.com/",
     searchParameters: {
-      facetFilters: [
-        "version:5.1"
-      ]
-    }
+      facetFilters: ["version:5.1"],
+    },
   },
   {
     name: "Dubbo",
@@ -28,7 +26,7 @@ export default <IAPIData[]>[
     apiKey: "364ae307e1da9d02b2335675e9db1eb1",
     appId: "L5F4T9F0I1",
     indexName: "apache_dubbo",
-    homepage: "https://dubbo.apache.org/"
+    homepage: "https://dubbo.apache.org/",
   },
   {
     name: "Echarts",
@@ -38,10 +36,8 @@ export default <IAPIData[]>[
     indexName: "apache_echarts",
     homepage: "https://echarts.apache.org/en/index.html",
     searchParameters: {
-      facetFilters: [
-        "lang:en"
-      ]
-    }
+      facetFilters: ["lang:en"],
+    },
   },
   {
     name: "Echarts",
@@ -52,10 +48,8 @@ export default <IAPIData[]>[
     homepage: "https://echarts.apache.org/zh/index.html",
     lang: "zh-Hans",
     searchParameters: {
-      facetFilters: [
-        "lang:zh"
-      ]
-    }
+      facetFilters: ["lang:zh"],
+    },
   },
   {
     name: "Homebrew",
@@ -63,7 +57,7 @@ export default <IAPIData[]>[
     apiKey: "a57ef92bf2adfae863a201ee43d6b5a1",
     appId: "BH4D9OD16A",
     indexName: "brew_all",
-    homepage: "https://brew.sh/"
+    homepage: "https://brew.sh/",
   },
   {
     name: "IPFS",
@@ -71,7 +65,7 @@ export default <IAPIData[]>[
     apiKey: "e56fc7c611806522df45191e22ed15ac",
     appId: "BH4D9OD16A",
     indexName: "ipfs-docs",
-    homepage: "https://docs.ipfs.tech/"
+    homepage: "https://docs.ipfs.tech/",
   },
   {
     name: "Laravel 9.x",
@@ -81,12 +75,10 @@ export default <IAPIData[]>[
     indexName: "laravel",
     homepage: "https://laravel.com/",
     searchParameters: {
-      facetFilters: [
-        "version:9.x"
-      ],
-      highlightPreTag: "<em class: \"not-italic bg-red-600 bg-opacity-25\">",
-      highlightPostTag: "</em>"
-    }
+      facetFilters: ["version:9.x"],
+      highlightPreTag: '<em class: "not-italic bg-red-600 bg-opacity-25">',
+      highlightPostTag: "</em>",
+    },
   },
   {
     name: "Prettier",
@@ -94,7 +86,7 @@ export default <IAPIData[]>[
     apiKey: "9fcdb2a62af4c47cc5eecf3d5a747818",
     appId: "BH4D9OD16A",
     indexName: "prettier",
-    homepage: "https://prettier.io/"
+    homepage: "https://prettier.io/",
   },
   {
     name: "RSSHub",
@@ -102,7 +94,7 @@ export default <IAPIData[]>[
     apiKey: "6247bc0db93150fd9e531b93a3fa4046",
     appId: "BH4D9OD16A",
     indexName: "rsshub",
-    homepage: "https://docs.rsshub.app/"
+    homepage: "https://docs.rsshub.app/",
   },
   {
     name: "React",
@@ -110,7 +102,7 @@ export default <IAPIData[]>[
     apiKey: "36221914cce388c46d0420343e0bb32e",
     appId: "BH4D9OD16A",
     indexName: "react",
-    homepage: "https://reactjs.org/"
+    homepage: "https://reactjs.org/",
   },
   {
     name: "React",
@@ -119,7 +111,7 @@ export default <IAPIData[]>[
     appId: "BH4D9OD16A",
     indexName: "reactjs_zh-hans",
     homepage: "https://zh-hans.reactjs.org/",
-    lang: "zh-Hans"
+    lang: "zh-Hans",
   },
   {
     name: "React Native",
@@ -127,7 +119,7 @@ export default <IAPIData[]>[
     apiKey: "83cd239c72f9f8b0ed270a04b1185288",
     appId: "8TDSE0OHGQ",
     indexName: "react-native-v2",
-    homepage: "https://reactjs.org/"
+    homepage: "https://reactjs.org/",
   },
   {
     name: "Slidev",
@@ -138,10 +130,8 @@ export default <IAPIData[]>[
     homepage: "https://cn.sli.dev/",
     lang: "zh-Hans",
     searchParameters: {
-      facetFilters: [
-        "language:cn"
-      ]
-    }
+      facetFilters: ["language:cn"],
+    },
   },
   {
     name: "TailwindCSS v3",
@@ -149,7 +139,7 @@ export default <IAPIData[]>[
     apiKey: "5fc87cef58bb80203d2207578309fab6",
     appId: "KNPXZI5B0M",
     indexName: "tailwindcss",
-    homepage: "https://tailwindcss.com/"
+    homepage: "https://tailwindcss.com/",
   },
   {
     name: "Unidata",
@@ -159,10 +149,8 @@ export default <IAPIData[]>[
     indexName: "unidata",
     homepage: "https://unidata.app/",
     searchParameters: {
-      facetFilters: [
-        "lang:en-US"
-      ]
-    }
+      facetFilters: ["lang:en-US"],
+    },
   },
   {
     name: "Vite",
@@ -170,7 +158,7 @@ export default <IAPIData[]>[
     apiKey: "b573aa848fd57fb47d693b531297403c",
     appId: "BH4D9OD16A",
     indexName: "vitejs",
-    homepage: "https://vitejs.dev/"
+    homepage: "https://vitejs.dev/",
   },
   {
     name: "Vite",
@@ -181,10 +169,8 @@ export default <IAPIData[]>[
     homepage: "https://cn.vitejs.dev/",
     lang: "zh-Hans",
     searchParameters: {
-      facetFilters: [
-        "tags:cn"
-      ]
-    }
+      facetFilters: ["tags:cn"],
+    },
   },
   {
     name: "Vitest",
@@ -192,7 +178,7 @@ export default <IAPIData[]>[
     apiKey: "9c3ced6fed60d2670bb36ab7e8bed8bc",
     appId: "ZTF29HGJ69",
     indexName: "vitest",
-    homepage: "https://vitest.dev/"
+    homepage: "https://vitest.dev/",
   },
   {
     name: "Vue Router4",
@@ -200,7 +186,7 @@ export default <IAPIData[]>[
     apiKey: "771d10c8c5cc48f7922f15048b4d931c",
     appId: "BTNTW3I1XP",
     indexName: "next_router_vuejs",
-    homepage: "https://router.vuejs.org/"
+    homepage: "https://router.vuejs.org/",
   },
   {
     name: "Vue3",
@@ -210,10 +196,8 @@ export default <IAPIData[]>[
     indexName: "vuejs",
     homepage: "https://vuejs.org/",
     searchParameters: {
-      facetFilters: [
-        "version:v3"
-      ]
-    }
+      facetFilters: ["version:v3"],
+    },
   },
   {
     name: "Vue3",
@@ -224,10 +208,8 @@ export default <IAPIData[]>[
     lang: "zh-Hans",
     homepage: "https://vuejs.org/",
     searchParameters: {
-      facetFilters: [
-        "version:v3"
-      ]
-    }
+      facetFilters: ["version:v3"],
+    },
   },
   {
     name: "VueUse",
@@ -235,7 +217,7 @@ export default <IAPIData[]>[
     apiKey: "a99ef8de1b2b27949975ce96642149c6",
     appId: "BH4D9OD16A",
     indexName: "vueuse",
-    homepage: "https://vueuse.org/"
+    homepage: "https://vueuse.org/",
   },
   {
     name: "Vuepress v1",
@@ -243,7 +225,7 @@ export default <IAPIData[]>[
     apiKey: "3a539aab83105f01761a137c61004d85",
     appId: "BH4D9OD16A",
     indexName: "vuepress",
-    homepage: "https://vuepress.vuejs.org/"
+    homepage: "https://vuepress.vuejs.org/",
   },
   {
     name: "Vuepress v2",
@@ -251,7 +233,7 @@ export default <IAPIData[]>[
     apiKey: "9a9058b8655746634e01071411c366b8",
     appId: "34YFD9IUQ2",
     indexName: "vuepress",
-    homepage: "https://v2.vuepress.vuejs.org/"
+    homepage: "https://v2.vuepress.vuejs.org/",
   },
   {
     name: "pnpm",
@@ -261,10 +243,8 @@ export default <IAPIData[]>[
     indexName: "pnpm",
     homepage: "https://pnpm.io/zh",
     searchParameters: {
-      facetFilters: [
-        "language:en"
-      ]
-    }
+      facetFilters: ["language:en"],
+    },
   },
   {
     name: "pnpm",
@@ -275,9 +255,7 @@ export default <IAPIData[]>[
     homepage: "https://pnpm.io/zh",
     lang: "zh-Hans",
     searchParameters: {
-      facetFilters: [
-        "language:zh"
-      ]
-    }
-  }
+      facetFilters: ["language:zh"],
+    },
+  },
 ];
